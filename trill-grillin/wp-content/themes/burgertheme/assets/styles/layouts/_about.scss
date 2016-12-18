@@ -1,0 +1,17 @@
+body.about {
+    div.burger-about {
+        @include grillfood($pattiepic);
+        min-width: 450px;
+        min-height: 450px;
+        left: 30%;
+        top: 35%;
+        h3 {
+            color: white;
+                text-shadow: 0 0 15px black;
+                font-size: 25px;
+                text-decoration: none;
+            padding-top: 30%;
+        }
+    }
+    
+}

@@ -1,0 +1,21 @@
+body.portfolio {
+    div.burger.portfolio {
+        display: inline-block;
+        position: fixed;
+        overflow: scroll;
+        height: 500px;
+        width: 1000px;
+        left: 30%;
+        top: 40%;
+        div.rec-img {
+            img {
+                display: inline-block;
+                width: 250px;
+                height: 200px;
+                position: relative;
+                float: left;
+                margin: 3px;
+            }
+        }
+    }
+}

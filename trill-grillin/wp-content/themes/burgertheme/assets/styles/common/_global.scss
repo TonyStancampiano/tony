@@ -1,0 +1,20 @@
+body {
+    font-family: $font2;
+    
+    header.banner {
+        
+        div.container {
+            
+            a.brand {
+                display: none;
+            }
+        }
+    }
+}
+h1.ptitle {
+        display: inline-block;
+        position: fixed;
+        top: 20%;
+        left: 40%;
+    font-family: $font1;
+    }

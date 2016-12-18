@@ -1,0 +1,69 @@
+body {
+    background-color: $gray;
+    background-image: $grillpic;
+    background-size: cover;
+    a {
+        h1.title {
+        position: fixed;
+        display: inline-block;
+        top: 70%;
+        left: 10%;
+        font-family: $font1;
+            color: white;
+    }
+    }
+    
+    nav {
+        ul {
+            a {  
+                    padding: 15px; 
+                    color: white;
+                    text-shadow: 0 0 15px black;
+                    font-size: 50px;
+                    text-decoration: none;
+                    display: inline-block;
+                    li {
+                        display: inline-block;
+                        list-style: none;
+                        div {
+                            transition: all .5s linear 0s;
+                        }
+                }
+                    }
+            
+            
+                a.about-link {  li#nav1 {
+                    div.about-bacon {
+                        @include grillfood($baconpic1);
+                        width: 350px;
+                        height: 100px;
+                        left: 5%;
+                    }
+                    }}
+            
+            
+                a.contact-link {li#nav2 {
+                    div.contact-bacon {
+                        @include grillfood($baconpic2);
+                        width: 350px;
+                        height: 100px;
+                        left: 30%;
+                    }
+                }  
+            }
+            
+                a.port-link {li#nav3 {
+                    div.portfolio-shroom {
+                        @include grillfood($mushroompic);
+                        padding: 90px 30px;
+                        top: 30%;
+                        left: 10%;
+                    }
+                }
+            }
+        }
+    }
+    
+        
+        
+    }

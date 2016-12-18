@@ -1,0 +1,72 @@
+body.grill {
+    div.burgers {
+        display: inline-block;
+        position: fixed;
+        top: 30%;
+        left: 30%;
+        width: 60%;
+        div.burger {
+            @include grillfood($pattiepic);
+            margin: 10px; 
+            position: relative;
+            float: left;
+            width: 25%;
+            min-height: 270px;
+            transition: all .5s linear 0s;
+            
+                center {
+                    span.name-span {
+                        display: inline-block;
+                        width: 65%;
+                        color: white;
+                        text-shadow: 0 0 15px black;
+                        font-size: 25px;
+                        text-decoration: none; 
+                        padding: 50px 5px;
+                        
+                    }    
+                
+                img {
+                    display: none;
+                    
+                    transition: all .5s ease 1s;
+                    
+                    }}
+            
+           
+            
+        }
+        div.burger:hover {
+            transform: rotateY(180deg);
+            transition: all .5s linear 0s;
+            backface-visibility: visible;
+         
+                span.name-span {
+                    transform: rotateY(180deg);
+                    backface-visibility: hidden;
+                    transition: all .5s linear 0s;
+                }    
+            
+        
+                img {
+                    display: inline-block;
+                    box-sizing: border-box;
+                    padding: 50px 5px;
+                    position: fixed;
+                    transition: all .5s ease 1s;
+                    width: 70%;
+                    height: 80%;
+                    top: 2%;
+                    left: 15%;
+                    
+                
+            }
+        }
+    }
+    div.trash {
+        display: inline-block;
+        position:fixed;
+    }
+}
+    
+    
